@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Home page</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body>
+
+
+    <table>
+        <tr>
+            <th>Continent</th>
+            <th>Country</th>
+            <th>New Cases</th>
+            <th>Total Cases Reported</th>
+        </tr>
+        <tr th:each="locationStat: ${locationStats}">
+            <td th:text="${locationStat.State}"></td>
+            <td th:text="${locationStat.country}"></td>
+            <td th:text="${locationStat.new_cases}"></td>
+            <td th:text="${locationStat.latestTotalCases}"></td>
+        </tr>
+        </table>
+    <br>
+    <br>
+    <h1 th:text="${s}"></h1>
+
+</div>
+</body>
+</html>
