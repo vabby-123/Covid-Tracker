@@ -3,8 +3,6 @@ package com.example.io.javabrains.coronavirustracker.models;
 public class LocationStats {
     private  String State;
     private String country;
-
-
     private String latestTotalCases;
 
     public String getNew_cases() {

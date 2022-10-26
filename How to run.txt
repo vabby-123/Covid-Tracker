@@ -1,0 +1,13 @@
+How project started?
+
+-went to spring boot initializer, then clicked on....
+new folder gets created then open it in ide and start.
+
+
+
+How to run?
+-open the folder in VS code
+-then click on run button
+-then open localhost 8005 in VS Code 
+(useename-user,pass-user)
+-make sure tomcat server is installed
